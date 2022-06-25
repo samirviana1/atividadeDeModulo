@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+:root {
+  --green: #27ae60;
+  --back: #444;
+  --light-color: #777;
+  --bg-color: #e6e6e6;
+  --hd--color: #def7ff;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  --box-shadow: 0.4rem 0.4rem 1rem #ccc, -0.4rem -0.4rem 1rem #fff;
+  --box-shadow-inset: 0.5rem 0.4rem 1rem #ccc inset,
+    -0.4rem -0.4rem 1rem #fff inset;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+  text-decoration: none;
+}
+
+.cabeçalho {
+  box-shadow: var(--box-shadow-inset);
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+  color: var(--back);
+}
+
+.conheci .conteiner .bar {
+  box-shadow: var(--box-shadow);
+  border-radius: 5rem;
+  height: 3rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.conheci .conteiner .bar span {
+  margin: 50px 50px 30px 20px;
+}
+
+.conheci button {
+  margin-left: 935px;
+}
+
+.conheci button a {
+  text-decoration: none;
+  color: var(--bg-color);
+}
+
+body footer p {
+  text-align: center;
+}
