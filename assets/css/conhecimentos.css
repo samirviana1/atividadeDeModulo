@@ -45,7 +45,15 @@
 }
 
 .conheci button {
-  margin-left: 935px;
+  margin-left: 930px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 15px;
+  border-radius: 11%;
+  padding: 0.7rem;
+  max-width: 15rem;
+  max-height: 10rem;
+  background: #444;
 }
 
 .conheci button a {
