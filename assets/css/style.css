@@ -25,16 +25,18 @@
 
 html{
     font-size: 62.%5;
-    overflow: hidden;
+
     scroll-behavior: smooth;
 }
 
 body{
     background: var(--bg-color);
-    padding-left: 30rem;
+    height: 100vh;   
+      overflow: hidden; 
+
 }
 
-.cabeçalho {
+/* .cabeçalho {
     position: fixed;
     top: 0; left: 0;
     z-index: 999;
@@ -44,9 +46,16 @@ body{
     height: 100%;
     padding: 2rem;
     text-align: center;
+} */
+.h-full{
+    height: 100%;
+}
+.risquinho{
+    
+    border-right:1px solid #777!important;
 }
 
-.cabeçalho .usuario img{
+img{
     margin: 1rem 0;
     border: 1rem solid transparent;
     border-radius: 50%;
@@ -55,14 +64,14 @@ body{
     box-shadow: var(--box-shadow);
 }
 
-.cabeçalho .usuario h3{
+.usuario h3{
     color: var(--back);
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .sobre .tele p{
     color: var(--back);
-    margin-top: 15px;
+    margin-top: 5px;
     font-size: 1.5rem;
 }
 
@@ -71,26 +80,26 @@ body{
     box-shadow: var(--box-shadow);
 }
 
-.cabeçalho .usuario p{
+.usuario p{
     color: var(--green);
     font-size: 1.5rem;
 }
 
-.cabeçalho .navbar{
+.navbar{
     padding-top: 1rem;
 }
 
-.cabeçalho .navbar a{
+.navbar a{
     display: block;
-    margin: 1.5rem 0;
-    padding: 0.1rem;
+    margin: 1.3rem 0;
+    padding: 0.1rem 1rem;
     border-radius: 5rem;
-    font-size: 2rem;
+    font-size: 1.4rem;
     box-shadow: var(--box-shadow);
     color: var(--back);
     text-decoration: none;
 }
-.cabeçalho .navbar a :hover{
+ .navbar a :hover{
     box-shadow: var(--box-shadow-inset);
 }
 
@@ -102,7 +111,7 @@ body{
     width: 4rem;
     line-height: 4rem;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     box-shadow: var(--box-shadow);
     text-align: center;
@@ -117,10 +126,7 @@ body{
     box-shadow: var(--box-shadow-inset);
 }
 
-section {
-    min-height: 100hv;
-    padding: 2rem;
-}
+
 .sobre{
     display: flex;
     flex-flow: column;
@@ -130,23 +136,23 @@ section {
 }
 
 .sobre .conteiner h3{
-    font-size: 6rem;
+    font-size: 4rem;
     color: var(--back);
-    line-height: 4;
+    line-height: 3;
     text-transform: uppercase;
 }
 
 .sobre .conteiner .p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--back);
-    padding-bottom:2rem;
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
 .sobre .redesSoci{
     position: relative;
-    top: 10rem;
+    top: 4rem;
     border-radius: .8rem;
     box-shadow: var(--box-shadow);
     padding: .1rem;
@@ -164,35 +170,4 @@ section {
 .sobre .redesSoci .tele{
     margin: 2px;
     font-size: 10rem;
-}
-
-@media (max-width:991px){
-    html{
-        font-size:55%;
-    }
-    body{
-        padding-left: 0;
-    }
-    .cabeçalho{
-        left: -110%;
-    }
-    .cabeçalho.active{
-        left: 0;
-        transition:.3s linear ;
-    }
-    #menu-btn{
-        display: initial;
-    }
-}
-
-@media (max-width:450px){
-    html{
-        font-size:50%;
-    }
-    
-    .cabeçalho{
-        width: 100%;
-        border-right: 0;
-    }
-    
 }

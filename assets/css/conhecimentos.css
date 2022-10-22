@@ -11,6 +11,13 @@
     -0.4rem -0.4rem 1rem #fff inset;
 }
 
+.list-group{
+  background-color: inherit!important;
+}
+
+.list-group-item{
+  background-color: inherit!important;
+}
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
