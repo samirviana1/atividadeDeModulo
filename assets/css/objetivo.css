@@ -32,40 +32,26 @@
   color: var(--back);
 }
 
-.conheci ul li {
-  background: var(--light-color);
-  border: 0.1rem solid;
+.conheci {
+  box-shadow: var(--box-shadow-inset);
+  background: var(--bg-color);
+  border-radius: 3rem;
+  height: 60%;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+ul li {
+  border: var(--light-color) solid;
   border-radius: 1rem;
+  margin-bottom: 5px;
   padding: 0.9rem;
-  color: var(--bg-color);
-  text-align: center;
+  color: #004000;
+  text-align: left;
   font-family: "Times New Roman", Times, serif;
   text-decoration: none;
 }
-
-.conheci ul{
-  box-shadow: var(--box-shadow);
+ul {
   list-style-type: none;
-}
-
-.conheci button a {
-  text-decoration: none;
-  color: var(--bg-color);
-}
-
-.conheci button {
-  margin-left: 930px;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-size: 15px;
-  border-radius: 11%;
-  padding: 0.7rem;
-  max-width: 15rem;
-  max-height: 10rem;
-  background: #444;
-}
-
-body footer p {
-  margin-top: 20px;
-  text-align: center;
 }

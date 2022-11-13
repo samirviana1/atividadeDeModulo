@@ -11,12 +11,12 @@
     -0.4rem -0.4rem 1rem #fff inset;
 }
 
-.list-group{
-  background-color: inherit!important;
+.list-group {
+  background-color: inherit !important;
 }
 
-.list-group-item{
-  background-color: inherit!important;
+.list-group-item {
+  background-color: inherit !important;
 }
 * {
   font-family: "Roboto", sans-serif;
@@ -31,7 +31,6 @@
 }
 
 .cabeçalho {
-  box-shadow: var(--box-shadow-inset);
   text-align: center;
   font-size: 3rem;
   text-transform: uppercase;
@@ -39,35 +38,11 @@
   color: var(--back);
 }
 
-.conheci .conteiner .bar {
+.conteiner {
   box-shadow: var(--box-shadow);
-  border-radius: 5rem;
-  height: 3rem;
+  border-radius: 3rem;
+  height: 50%;
+  width: 100%;
   padding: 1rem;
   margin: 1rem 0;
-}
-
-.conheci .conteiner .bar span {
-  margin: 50px 50px 30px 20px;
-}
-
-.conheci button {
-  margin-left: 930px;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-size: 15px;
-  border-radius: 11%;
-  padding: 0.7rem;
-  max-width: 15rem;
-  max-height: 10rem;
-  background: #444;
-}
-
-.conheci button a {
-  text-decoration: none;
-  color: var(--bg-color);
-}
-
-body footer p {
-  text-align: center;
 }
